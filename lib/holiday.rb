@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
   holiday_hash.map do |season, holiday|
-    holiday.map do |key, value|
+    holiday.map do |holiday, item|
       # binding.pry
     if value.include?("BBQ")
       puts #{key}
