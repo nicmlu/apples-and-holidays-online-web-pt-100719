@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |key, value|
       # binding.pry
     if value == "BBQ"
-      puts key
+      puts #{key}
       end
     end
   end
