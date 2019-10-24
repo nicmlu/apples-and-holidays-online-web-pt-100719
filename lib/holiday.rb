@@ -79,6 +79,8 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map do |key, value|
     if value == "BBQ"
       puts key
+    end
+  end
 end
 
 
