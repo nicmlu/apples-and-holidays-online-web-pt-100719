@@ -81,6 +81,7 @@ def all_holidays_with_bbq(holiday_hash)
       binding.pry
     if value == "BBQ"
       puts key
+      end
     end
   end
 end
